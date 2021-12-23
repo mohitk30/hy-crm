@@ -1,0 +1,5 @@
+
+RewriteEngine on  
+  
+RewriteRule ^dashboard  ./dashboard/dashboard.php [NC,L]
+ 

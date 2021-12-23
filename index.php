@@ -48,10 +48,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto">
-        <li class="nav-item ">
+        <!-- <li class="nav-item ">
           <span class="nav-link active hycrm-register-span" aria-current="page" href="#">Register</span>
-        </li>
-        <li class="nav-item px-lg-5">
+        </li> -->
+        <li class="nav-item px-lg-4">
           <span class="nav-link active hycrm-register-span" aria-current="page" onclick="showAdmin()" ><span id="admin-or-clint" class="unselectable">Admin</span> Login</span>
         </li>
 <!--         
@@ -111,16 +111,17 @@
         </div>
         <div class="mb-3    d-flex flex-lg-row  button-and-forgotpass-div">
              
-            <div class="w-50 p-1 mx-auto">
-              <button class="mx-lg-5 px-4 btn btn-primary login-button" type="submit">Login</button>
+            <div class="w-75 p-1 mx-auto">
+              <button class="mx-lg-2 px-4 btn btn-primary login-button" type="submit">Client Login</button>
             </div>
-            <div class="w-50 w-sm-100 p-lg-1 mx-auto">
-             <a class="forgot-password-a" href=""> Forgot password</a>
+            <div class="w-100 w-sm-100 p-lg-1 mx-1  pt-2">
+             <a class="forgot-password-a" href=""> Forgot your password?</a>
             </div>
         </div>
 
 
           </form>
+          <a href="./dashboard/client/client.php">Demo clint login</a>
          </div>
       </div>
 
@@ -145,17 +146,18 @@
                 </div>
                 <div class="mb-3    d-flex flex-lg-row  button-and-forgotpass-div">
                     
-                    <div class="w-50 p-1 mx-auto">
-                    <button class="mx-lg-5 px-4 btn btn-primary login-button" type="submit">Login</button>
+                    <div class="w-75 p-1 mx-auto">
+                    <button class="mx-lg-2 px-4 btn btn-primary login-button" type="submit">Admin Login</button>
                     </div>
-                    <div class="w-50 w-sm-100 p-lg-1 mx-auto">
-                    <a class="forgot-password-a" href=""> Forgot password</a>
+                    <div class="w-100 w-sm-100 p-lg-1 mx-1 pt-2">
+                    <a class="forgot-password-a" href=""> Forgot your password?</a>
                     </div>
                 </div>
 
 
              </form>
-             <div class="pt-1">* This login is only meant for admin and staff members.</div>
+             <div class="pt-1 red-color-small-font">* This login is only meant for admin and staff members.</div>
+             <a href="./dashboard/admin/admin.php">Demo admin login</a>
          </div>
       </div>
        
