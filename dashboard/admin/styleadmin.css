@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main-admin-section {
+    min-height: 100vh !important;
+    width: calc(100vw-8px);
+}
+
+
+/* left container */
+
+#left-container {
+    height: 100%;
+    width: 20%;
+    overflow-y: scroll;
+    position: fixed;
+    background: #f1f1f1;
+    min-width: 50px;
+}
+
+
+/* left container bar */
+
+
+/* width */
+
+#left-container::-webkit-scrollbar {
+    width: 4px;
+}
+
+
+/* Track */
+
+#left-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+#left-container::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+#left-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* left container scroll bar design end */
+
+.left-options-div {
+    width: 100%;
+    padding: 10px;
+    /* white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis !important; */
+    overflow-x: hidden;
+    height: 50px;
+    background: #003c6d;
+    margin-bottom: 2px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-options-div1:hover {
+    background: #024f8f;
+}
+
+.left-image-div {
+    height: 30px;
+    width: 50px;
+}
+
+.left-icon-image {
+    height: 30px;
+    width: 30px;
+}
+
+.left-div-text {
+    min-width: 0px;
+    padding-top: 3px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis !important;
+    color: white !important;
+}
+
+.left-icon {
+    color: white;
+}
+
+.user-div {
+    bottom: 0;
+    width: 100%;
+}
+
+.small-red-dot {
+    height: 13px !important;
+    width: 13px !important;
+    border-radius: 50%;
+    background: red;
+    z-index: 100;
+    margin-left: 15px;
+    position: absolute;
+}
+
+
+/* rigth container */
+
+#right-container {
+    height: 100%;
+    width: 80%;
+    overflow-y: scroll;
+    position: fixed;
+    margin-left: 25%;
+}
+
+
+/* left container bar */
+
+
+/* width */
+
+#right-container::-webkit-scrollbar {
+    width: 4px;
+}
+
+
+/* Track */
+
+#right-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+#right-container::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+#right-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* left container scroll bar design end */
+
+
+/* media queries */
+
+@media screen and (max-width:992px) {
+    #left-container {
+        width: 20% !important;
+    }
+    #right-container {
+        width: 80% !important;
+    }
+}
