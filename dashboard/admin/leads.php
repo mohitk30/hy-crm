@@ -31,7 +31,7 @@
   />
 
 
-    <title>hycrm-admin : Dashboard</title>
+    <title>hycrm-admin : Leads</title>
 </head>
 <body>
     <section id="main-admin-section">
@@ -117,103 +117,20 @@
             
          <div class="right-container-header" >
            
-         <div class="username-position">Home > Dashboard</div>
+         <div class="username-position">Home > Leads</div>
          <div class="username-div">Username</div>
          
 
 
          </div>
          <div class="main-content-dashboard">
-         <div class="dashboard-leads-info-div">
-            <div class="dashboard-leads-info-div-small-divs">
-              <div class="dashboard-leads-info-div-small-divs-icon">
-              <i class="fas fa-chart-area fa-2x"></i>
-              </div>
-             <div class="dashboard-leads-info-div-small-divs-number">
-               0<br>
-             Total Leads
-              </div>
-            
-             </div>
-
-
-
-            <div class="dashboard-leads-info-div-small-divs">
-             <div class="dashboard-leads-info-div-small-divs-icon">
-             <i class="fas fa-bars fa-2x"></i>
-              </div>
-             <div class="dashboard-leads-info-div-small-divs-number">
-               0<br>
-               Last Months Leads
-              </div>
-            
-            
-            
-            
-              </div>
-
-
-
-            <div class="dashboard-leads-info-div-small-divs">
-            <div class="dashboard-leads-info-div-small-divs-icon">
-            <i class="fas fa-chart-line fa-2x"></i>
-                </div>
-                <div class="dashboard-leads-info-div-small-divs-number">
-                0<br>
-                This Month Leads
-                </div>
-
-            </div>
-
-
-
-            <div class="dashboard-leads-info-div-small-divs">
-              <div class="dashboard-leads-info-div-small-divs-icon">
-              <i class="fas fa-basketball-ball fa-2x"></i>
-              </div>
-              <div class="dashboard-leads-info-div-small-divs-number">
-              0<br>
-              Today's Leads
-              </div>             
-            
-            </div>
-        </div>
-          <!-- Graphs -->
-          <div class="dashboard-graphs-different-things">
-            <!--2 large graph -->
-              <div class="dashboard-two-large-graph-div">
-                <?php
-                 include('./dashboardCharts/chart1.php');
-               
-                 
-                 ?>
-                 <br>
-                 <?php
-                 include('./dashboardCharts/chart2.php');
-                 
-                  
-                 ?>
-
-
-              </div>
-
-
-
-
-            <!-- 2 small graph -->
-
-            <div class="dashboard-two-small-graph-div">
-              two small graph
-            </div>
+           
+     
 
 
 
 
 
-
- 
-          </div>
-         
          </div>
 
 
