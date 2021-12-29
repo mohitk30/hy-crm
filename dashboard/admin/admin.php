@@ -189,7 +189,7 @@
                  ?>
                  <br>
                  <?php
-                 include('./dashboardCharts/chart2.php');
+                 //  include('./dashboardCharts/chart2.php');
                  
                   
                  ?>
@@ -202,9 +202,7 @@
 
             <!-- 2 small graph -->
 
-            <div class="dashboard-two-small-graph-div">
-              two small graph
-            </div>
+           
 
 
 

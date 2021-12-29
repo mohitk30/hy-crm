@@ -229,14 +229,34 @@ a {
 
 .dashboard-two-large-graph-div {
     width: 100%;
+}
+
+.dashboard-two-small-graph-div {
+    min-height: 100px;
+    width: 100%;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
 }
 
-.dashboard-two-small-graph-div {
-    min-height: 300px;
-    width: 100%;
-    margin-top: 10px;
+#chartContainer1 {
+    height: calc(35vw);
+}
+
+#chartContainer2 {
+    height: calc(35vw);
+}
+
+#chartContainers1 {
+    width: 48%;
+    margin: 2%;
+    height: calc(25vw);
+}
+
+#chartContainers2 {
+    width: 48%;
+    margin: 2%;
+    height: calc(25vw);
 }
 
 
