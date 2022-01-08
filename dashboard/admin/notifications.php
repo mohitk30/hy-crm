@@ -20,7 +20,7 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- script -->
-    <script src='main.js'>
+    <script src='./jsfiles/mainadmin.js'>
     </script>
     <!-- site icon -->
     <link rel="icon" href="images/siteicon.png" type="image/gif" sizes="50x50">
@@ -29,6 +29,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  
 
 
     <title>hycrm-admin : Dashboard</title>
@@ -42,32 +43,30 @@
           
              <div class="left-options-div">
                 <!-- <div class="left-image-div px-sm-1 px-lg-2  " > <img class="left-icon-image" src="https://assets-geys.sgp1.digitaloceanspaces.com/growtheye/logo.png" alt="Logo"></div> -->
-                <div class="left-div-text  font-24 "> <span class="align-middle text-white" > HY</span> </div>
+                <div class="left-div-text font-24"> <span class="align-middle text-white" > HY</span> </div>
               </div>
               
               <a href="./admin.php">
              <div class="left-options-div left-options-div1">
-                <div class="left-image-div   px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Dashboard" > <i class="fas fa-tachometer-alt fa-2x left-icon"></i></div>
+                <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Dashboard" > <i class="fas fa-tachometer-alt fa-2x left-icon"></i></div>
                 <div class="left-div-text "> <span class="align-middle text-white" > Dashboard</span> </div>
               </div>
               </a>
 
               <a href="./leads.php">
              <div class="left-options-div left-options-div1">
-                <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Leads" > <i class="fas fa-book   left-icon"  ></i></div>
-                <div class="left-div-text  "> <span class="align-middle text-white" > Leads</span> </div>
+                <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Leads" > <i class="fas fa-book fa-2x left-icon"></i></div>
+                <div class="left-div-text "> <span class="align-middle text-white" > Leads</span> </div>
               </div>
               </a>
 
-              <!-- cleander -->
-              <a href="./calender.php">
+                <!-- cleander -->
+                <a href="./calender.php">
              <div class="left-options-div left-options-div1">
                 <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Leads" > <i class="fas fa-clock   left-icon"  ></i></div>
                 <div class="left-div-text  "> <span class="align-middle text-white" > Calender</span> </div>
               </div>
               </a>
-
-
 
               <a href="./analytics.php">
              <div class="left-options-div left-options-div1">
@@ -79,14 +78,14 @@
               <a href="./reports.php">
              <div class="left-options-div left-options-div1">
                 <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Reports" > <i class="fas fa-box fa-2x left-icon"></i></div>
-                <div class="left-div-text  "> <span class="align-middle text-white" > Reports</span> </div>
+                <div class="left-div-text "> <span class="align-middle text-white" > Reports</span> </div>
               </div>
               </a>
 
               <a href="./addLead.php">
              <div class="left-options-div left-options-div1">
                 <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="New Lead" > <i class="fas fa-plus-circle fa-2x left-icon"></i></div>
-                <div class="left-div-text  "> <span class="align-middle text-white" > New Lead</span> </div>
+                <div class="left-div-text "> <span class="align-middle text-white" > New Lead</span> </div>
               </div>
               </a>
 
@@ -94,14 +93,14 @@
              <div class="left-options-div left-options-div1">
              
                 <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Notifications" ><span class="small-red-dot"></span>  <i class="fas fa-bell fa-2x left-icon">  </i> </div>
-                <div class="left-div-text  "> <span class="align-middle text-white" > Notifications(0)</span> </div>
+                <div class="left-div-text "> <span class="align-middle text-white" > Notifications(0)</span> </div>
               </div>
               </a>
 
               <a href="./settings/profile.php">
              <div class="left-options-div left-options-div1">
                 <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Settings" > <i class="fas fa-cog fa-2x left-icon"></i></div>
-                <div class="left-div-text  "> <span class="align-middle text-white" > Settings</span> </div>
+                <div class="left-div-text "> <span class="align-middle text-white" > Settings</span> </div>
               </div>
               </a>
               
@@ -112,9 +111,9 @@
 
 <!-- user div -->
               <a class="user-div" href="./user.php">
-             <div class="left-options-div left-options-div1  " data-bs-toggle="tooltip" data-bs-html="true" title="User">
+             <div class="left-options-div left-options-div1 " data-bs-toggle="tooltip" data-bs-html="true" title="User">
                 <div class="left-image-div px-2  " > <i class="fas fa-user fa-2x left-icon"></i></div>
-                <div class="left-div-text  user-text"> <span class="align-middle text-white" > User</span> </div>
+                <div class="left-div-text user-text "> <span class="align-middle text-white" > User</span> </div>
               </div>
               </a>
 
@@ -125,104 +124,95 @@
          </div>
          <div id="right-container">
             
-         <div class="right-container-header" >
-           
-         <div class="username-position">Home > Dashboard</div>
-         <div class="username-div">Username</div>
-         
+                  <div class="right-container-header" >
+                  <div class="username-position">Home > Notifications</div>
+                  <div class="username-div">Username</div>
+                  </div>
 
+                  <div class="main-content-notifications">
+                    <!-- Notifications info -->
 
-         </div>
-         <div class="main-content-dashboard">
-         <div class="dashboard-leads-info-div">
-            <div class="dashboard-leads-info-div-small-divs">
-              <div class="dashboard-leads-info-div-small-divs-icon">
-              <i class="fas fa-chart-area fa-2x"></i>
-              </div>
-             <div class="dashboard-leads-info-div-small-divs-number">
-               0<br>
-             Total Leads
-              </div>
-            
-             </div>
+                    <div class="all-notificationa-type">
 
+          <div class="two-two-containers">
+                      <div class="todays-notifications">
+                        <div class="todays-notifications-heading">
+                        <div class="about-notifiy">Today Notifications - Thursday 6th January</div>
+                        <div class="open-close-drop" onclick="openTodayNoti()"><i class="fas fa-chevron-down fa-1x"></i></div>
+                        </div>
 
+                        <div id="open-todays-notifications" class="tod-notifications">
+                        No Notifications/Reminders for today 
+                        </div>
+ 
+                      </div>
+                      <div class="todays-notifications">
+                           <div class="todays-notifications-heading">
+                            <div class="about-notifiy">Upcoming Notifications</div>
+                            <div class="open-close-drop" onclick="openUpconingNoti()"><i class="fas fa-chevron-down fa-1x"></i></div>
+                            </div>
 
-            <div class="dashboard-leads-info-div-small-divs">
-             <div class="dashboard-leads-info-div-small-divs-icon">
-             <i class="fas fa-bars fa-2x"></i>
-              </div>
-             <div class="dashboard-leads-info-div-small-divs-number">
-               0<br>
-               Last Months Leads
-              </div>
-            
-            
-            
-            
-              </div>
-
-
-
-            <div class="dashboard-leads-info-div-small-divs">
-            <div class="dashboard-leads-info-div-small-divs-icon">
-            <i class="fas fa-chart-line fa-2x"></i>
-                </div>
-                <div class="dashboard-leads-info-div-small-divs-number">
-                0<br>
-                This Month Leads
-                </div>
-
-            </div>
-
-
-
-            <div class="dashboard-leads-info-div-small-divs">
-              <div class="dashboard-leads-info-div-small-divs-icon">
-              <i class="fas fa-basketball-ball fa-2x"></i>
-              </div>
-              <div class="dashboard-leads-info-div-small-divs-number">
-              0<br>
-              Today's Leads
-              </div>             
-            
-            </div>
-        </div>
-          <!-- Graphs -->
-          <div class="dashboard-graphs-different-things">
-            <!--2 large graph -->
-              <div class="dashboard-two-large-graph-div">
-                <?php
-                 include('./dashboardCharts/chart1.php');
-               
-                 
-                 ?>
-                 <br>
-                 <?php
-                 //  include('./dashboardCharts/chart2.php');
-                 
-                  
-                 ?>
-
-
-              </div>
-
-
-
-
-            <!-- 2 small graph -->
-
-           
-
-
-
+                            <div id="open-upcoming-notifications" class="tod-notifications">
+                            No Notifications/Reminders for today 
+                            </div>
 
 
 
  
-          </div>
+                      </div>
+
+
+                      </div>
+
+
+                      <div class="two-two-containers">
+                      <div class="todays-notifications">
+
+                           <div class="todays-notifications-heading">
+                            <div class="about-notifiy">Notifications that are not closed</div>
+                            <div class="open-close-drop" onclick="openNotCloseNoti()"><i class="fas fa-chevron-down fa-1x"></i></div>
+                            </div>
+
+                            <div id="open-notclose-notifications" class="tod-notifications">
+                            No Notifications/Reminders for today 
+                            </div>
+
+
+
+                      </div>
+                      <div class="todays-notifications">
+
+
+                           <div class="todays-notifications-heading-archeive">
+                            <div class="about-notifiy">Archives</div>
+                            <div class="open-close-drop" onclick="openArchivesNoti()"><i class="fas fa-chevron-down fa-1x"></i></div>
+                            </div>
+
+                            <div id="open-Archives-notifications" class="tod-notifications">
+                            No Notifications/Reminders
+                            </div>
+
+ 
+                      </div>
+ 
+
+                    </div>
+
+                    </div>
+          
+                      
+
+
+
+
+
+
+
+
+                     
+                    </div>
          
-         </div>
+         
 
 
 

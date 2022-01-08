@@ -31,7 +31,7 @@
   />
 
 
-    <title>hycrm-admin : Leads</title>
+    <title>hycrm-admin : Dashboard</title>
 </head>
 <body>
     <section id="main-admin-section">
@@ -47,20 +47,20 @@
               
               <a href="./admin.php">
              <div class="left-options-div left-options-div1">
-                <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Dashboard" > <i class="fas fa-tachometer-alt fa-2x left-icon"></i></div>
+                <div class="left-image-div px-2   " data-bs-toggle="tooltip" data-bs-html="true" title="Dashboard" > <i class="fas fa-tachometer-alt fa-2x left-icon"></i></div>
                 <div class="left-div-text "> <span class="align-middle text-white" > Dashboard</span> </div>
               </div>
               </a>
 
               <a href="./leads.php">
              <div class="left-options-div left-options-div1">
-                <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Leads" > <i class="fas fa-book fa-2x left-icon"></i></div>
+                <div class="left-image-div px-2   " data-bs-toggle="tooltip" data-bs-html="true" title="Leads" > <i class="fas fa-book fa-2x left-icon"></i></div>
                 <div class="left-div-text "> <span class="align-middle text-white" > Leads</span> </div>
               </div>
               </a>
 
-                <!-- cleander -->
-                <a href="./calender.php">
+               <!-- cleander -->
+               <a href="./calender.php">
              <div class="left-options-div left-options-div1">
                 <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Leads" > <i class="fas fa-clock   left-icon"  ></i></div>
                 <div class="left-div-text  "> <span class="align-middle text-white" > Calender</span> </div>
@@ -69,21 +69,21 @@
 
               <a href="./analytics.php">
              <div class="left-options-div left-options-div1">
-                <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Analytics" > <i class="fas fa-chart-bar fa-2x left-icon"></i></div>
+                <div class="left-image-div px-2   " data-bs-toggle="tooltip" data-bs-html="true" title="Analytics" > <i class="fas fa-chart-bar fa-2x left-icon"></i></div>
                 <div class="left-div-text "> <span class="align-middle text-white" > Analytics</span> </div>
               </div>
               </a>
 
               <a href="./reports.php">
              <div class="left-options-div left-options-div1">
-                <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Reports" > <i class="fas fa-box fa-2x left-icon"></i></div>
+                <div class="left-image-div px-2   " data-bs-toggle="tooltip" data-bs-html="true" title="Reports" > <i class="fas fa-box fa-2x left-icon"></i></div>
                 <div class="left-div-text "> <span class="align-middle text-white" > Reports</span> </div>
               </div>
               </a>
 
               <a href="./addLead.php">
              <div class="left-options-div left-options-div1">
-                <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="New Lead" > <i class="fas fa-plus-circle fa-2x left-icon"></i></div>
+                <div class="left-image-div px-2   " data-bs-toggle="tooltip" data-bs-html="true" title="New Lead" > <i class="fas fa-plus-circle fa-2x left-icon"></i></div>
                 <div class="left-div-text "> <span class="align-middle text-white" > New Lead</span> </div>
               </div>
               </a>
@@ -91,15 +91,15 @@
               <a href="./notifications.php">
              <div class="left-options-div left-options-div1">
              
-                <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Notifications" ><span class="small-red-dot"></span>  <i class="fas fa-bell fa-2x left-icon">  </i> </div>
+                <div class="left-image-div px-2   " data-bs-toggle="tooltip" data-bs-html="true" title="Notifications" ><span class="small-red-dot"></span>  <i class="fas fa-bell fa-2x left-icon">  </i> </div>
                 <div class="left-div-text "> <span class="align-middle text-white" > Notifications(0)</span> </div>
               </div>
               </a>
 
               <a href="./settings/profile.php">
              <div class="left-options-div left-options-div1">
-                <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Settings" > <i class="fas fa-cog fa-2x left-icon"></i></div>
-                <div class="left-div-text "> <span class="align-middle text-white" > Settings</span> </div>
+                <div class="left-image-div px-2   " data-bs-toggle="tooltip" data-bs-html="true" title="Settings" > <i class="fas fa-cog fa-2x left-icon"></i></div>
+                <div class="left-div-text   "> <span class="align-middle text-white" > Settings</span> </div>
               </div>
               </a>
               
@@ -111,7 +111,7 @@
 <!-- user div -->
               <a class="user-div" href="./user.php">
              <div class="left-options-div left-options-div1 " data-bs-toggle="tooltip" data-bs-html="true" title="User">
-                <div class="left-image-div px-2  " > <i class="fas fa-user fa-2x left-icon"></i></div>
+                <div class="left-image-div px-2   " > <i class="fas fa-user fa-2x left-icon"></i></div>
                 <div class="left-div-text user-text"> <span class="align-middle text-white" > User</span> </div>
               </div>
               </a>
@@ -123,23 +123,19 @@
          </div>
          <div id="right-container">
             
-         <div class="right-container-header" >
-           
-         <div class="username-position">Home > Leads</div>
-         <div class="username-div">Username</div>
+                  <div class="right-container-header" >
+                  <div class="username-position">Home > New Lead</div>
+                  <div class="username-div">Username</div>
+                  </div>
+
+                  <div class="main-content-dashboard">
+                    <!-- user info -->
+          
+                     Here is to Add New Leads
+                     
+                    </div>
          
-
-
-         </div>
-         <div class="main-content-dashboard">
-           
-     
-          Here is leads
-
-
-
-
-         </div>
+         
 
 
 

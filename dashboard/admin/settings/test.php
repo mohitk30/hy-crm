@@ -12,7 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <!-- css -->
-    <link rel="stylesheet" type="text/css" href="styleadmin.css">
+    <link rel="stylesheet" type="text/css" href="../styleadmin.css">
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,55 +42,54 @@
           
              <div class="left-options-div">
                 <!-- <div class="left-image-div px-sm-1 px-lg-2  " > <img class="left-icon-image" src="https://assets-geys.sgp1.digitaloceanspaces.com/growtheye/logo.png" alt="Logo"></div> -->
-                <div class="left-div-text  font-24 "> <span class="align-middle text-white" > HY</span> </div>
+                <div class="left-div-text  font-24"> <span class="align-middle text-white" > HY</span> </div>
               </div>
               
-              <a href="./admin.php">
+              <a href="../admin.php">
              <div class="left-options-div left-options-div1">
-                <div class="left-image-div   px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Dashboard" > <i class="fas fa-tachometer-alt fa-2x left-icon"></i></div>
-                <div class="left-div-text "> <span class="align-middle text-white" > Dashboard</span> </div>
+                <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Dashboard" > <i class="fas fa-tachometer-alt fa-2x left-icon"></i></div>
+                <div class="left-div-text  "> <span class="align-middle text-white" > Dashboard</span> </div>
               </div>
               </a>
 
-              <a href="./leads.php">
+              <a href="../leads.php">
              <div class="left-options-div left-options-div1">
-                <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Leads" > <i class="fas fa-book   left-icon"  ></i></div>
+                <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Leads" > <i class="fas fa-book fa-2x left-icon"></i></div>
                 <div class="left-div-text  "> <span class="align-middle text-white" > Leads</span> </div>
               </div>
               </a>
 
-              <!-- cleander -->
-              <a href="./calender.php">
+
+                <!-- cleander -->
+                <a href="../calender.php">
              <div class="left-options-div left-options-div1">
                 <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Leads" > <i class="fas fa-clock   left-icon"  ></i></div>
                 <div class="left-div-text  "> <span class="align-middle text-white" > Calender</span> </div>
               </div>
               </a>
-
-
-
-              <a href="./analytics.php">
+              
+              <a href="../analytics.php">
              <div class="left-options-div left-options-div1">
                 <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Analytics" > <i class="fas fa-chart-bar fa-2x left-icon"></i></div>
-                <div class="left-div-text "> <span class="align-middle text-white" > Analytics</span> </div>
+                <div class="left-div-text  "> <span class="align-middle text-white" > Analytics</span> </div>
               </div>
               </a>
 
-              <a href="./reports.php">
+              <a href="../reports.php">
              <div class="left-options-div left-options-div1">
                 <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Reports" > <i class="fas fa-box fa-2x left-icon"></i></div>
                 <div class="left-div-text  "> <span class="align-middle text-white" > Reports</span> </div>
               </div>
               </a>
 
-              <a href="./addLead.php">
+              <a href="../addLead.php">
              <div class="left-options-div left-options-div1">
                 <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="New Lead" > <i class="fas fa-plus-circle fa-2x left-icon"></i></div>
                 <div class="left-div-text  "> <span class="align-middle text-white" > New Lead</span> </div>
               </div>
               </a>
 
-              <a href="./notifications.php">
+              <a href="../notifications.php">
              <div class="left-options-div left-options-div1">
              
                 <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Notifications" ><span class="small-red-dot"></span>  <i class="fas fa-bell fa-2x left-icon">  </i> </div>
@@ -98,7 +97,7 @@
               </div>
               </a>
 
-              <a href="./settings/profile.php">
+              <a href="./profile.php">
              <div class="left-options-div left-options-div1">
                 <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Settings" > <i class="fas fa-cog fa-2x left-icon"></i></div>
                 <div class="left-div-text  "> <span class="align-middle text-white" > Settings</span> </div>
@@ -111,8 +110,8 @@
 
 
 <!-- user div -->
-              <a class="user-div" href="./user.php">
-             <div class="left-options-div left-options-div1  " data-bs-toggle="tooltip" data-bs-html="true" title="User">
+              <a class="user-div" href="../user.php">
+             <div class="left-options-div left-options-div1 " data-bs-toggle="tooltip" data-bs-html="true" title="User">
                 <div class="left-image-div px-2  " > <i class="fas fa-user fa-2x left-icon"></i></div>
                 <div class="left-div-text  user-text"> <span class="align-middle text-white" > User</span> </div>
               </div>
@@ -125,104 +124,43 @@
          </div>
          <div id="right-container">
             
-         <div class="right-container-header" >
-           
-         <div class="username-position">Home > Dashboard</div>
-         <div class="username-div">Username</div>
+                  <div class="right-container-header" >
+                  <div class="username-position">Home > Settings > Profile</div>
+                  <div class="username-div">Username</div>
+                  </div>
+
+                  <div class="main-content-settings-profile">
+                    <!-- user profile settings -->
+          
+                     
+                    <div class="left-links-div">
+                       <div><strong>General Settings</strong></div>
+                       <div><a href="">Manage Account</a></div>
+                       <div><a href="">Profile</a></div>
+                       <div><a href="">Change Password</a></div>
+                       <div><a href="">Access Code</a></div>
+                       <div><a href="">Changelog</a></div>
+                       <div><strong>Customer Updates</strong></div>
+                       <div><a href="">Acknowledgment SMS</a></div>
+                       <div><strong>Account Settings</strong></div>
+                       <div><a href="">Roles</a></div>
+                       <div><strong>Lead Form Settings</strong></div>
+                       <div><a href="">Manage Source</a></div>
+                       <div><a href="">Manage Status</a></div>
+                    </div>
+                    <div class="right-form-div">
+                      right form
+                    </div>
+                    
+
+
+
+
+
+                     
+                    </div>
          
-
-
-         </div>
-         <div class="main-content-dashboard">
-         <div class="dashboard-leads-info-div">
-            <div class="dashboard-leads-info-div-small-divs">
-              <div class="dashboard-leads-info-div-small-divs-icon">
-              <i class="fas fa-chart-area fa-2x"></i>
-              </div>
-             <div class="dashboard-leads-info-div-small-divs-number">
-               0<br>
-             Total Leads
-              </div>
-            
-             </div>
-
-
-
-            <div class="dashboard-leads-info-div-small-divs">
-             <div class="dashboard-leads-info-div-small-divs-icon">
-             <i class="fas fa-bars fa-2x"></i>
-              </div>
-             <div class="dashboard-leads-info-div-small-divs-number">
-               0<br>
-               Last Months Leads
-              </div>
-            
-            
-            
-            
-              </div>
-
-
-
-            <div class="dashboard-leads-info-div-small-divs">
-            <div class="dashboard-leads-info-div-small-divs-icon">
-            <i class="fas fa-chart-line fa-2x"></i>
-                </div>
-                <div class="dashboard-leads-info-div-small-divs-number">
-                0<br>
-                This Month Leads
-                </div>
-
-            </div>
-
-
-
-            <div class="dashboard-leads-info-div-small-divs">
-              <div class="dashboard-leads-info-div-small-divs-icon">
-              <i class="fas fa-basketball-ball fa-2x"></i>
-              </div>
-              <div class="dashboard-leads-info-div-small-divs-number">
-              0<br>
-              Today's Leads
-              </div>             
-            
-            </div>
-        </div>
-          <!-- Graphs -->
-          <div class="dashboard-graphs-different-things">
-            <!--2 large graph -->
-              <div class="dashboard-two-large-graph-div">
-                <?php
-                 include('./dashboardCharts/chart1.php');
-               
-                 
-                 ?>
-                 <br>
-                 <?php
-                 //  include('./dashboardCharts/chart2.php');
-                 
-                  
-                 ?>
-
-
-              </div>
-
-
-
-
-            <!-- 2 small graph -->
-
-           
-
-
-
-
-
-
- 
-          </div>
          
-         </div>
 
 
 
