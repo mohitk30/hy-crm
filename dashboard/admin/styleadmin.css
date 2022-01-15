@@ -428,6 +428,70 @@ a {
 }
 
 
+/* .complete-account-profile-div {} */
+
+.brand-image-preview {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #e7e7e7;
+}
+
+.manage-options-divs {
+    background: #fafbfc;
+    padding: 10px;
+    cursor: all-scroll;
+}
+
+.log-out-button {
+    width: 100px;
+    margin-left: auto;
+    margin-right: 10px !important;
+}
+
+.small-option-div-in-user {
+    padding: 10px;
+    background: #e8f3ff;
+    cursor: pointer;
+    margin: 4px;
+    box-shadow: 1px 2px 15px #d3d3d3;
+}
+
+.main-content-user {
+    width: 100%;
+    min-height: 500px;
+    background-color: #f1f1f1;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.main-content-integrations {
+    width: 100%;
+    min-height: 600px;
+    background-color: #f1f1f1;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.integration-divs {
+    margin-top: 10px;
+    margin-left: 3%;
+    min-height: 150px;
+    width: 30%;
+    min-width: 180px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 8px #dddddd;
+}
+
+.integerate-div-link-div {
+    width: 100px;
+    padding: 10px;
+    background: #e8f3ff;
+    cursor: pointer;
+    margin: 4px;
+    /* box-shadow: 1px 2px 15px #d3d3d3; */
+}
+
+
 /* media queries */
 
 @media screen and (max-width:992px) {
@@ -481,5 +545,13 @@ a {
     .right-form-div {
         width: 90%;
         min-height: 300px;
+    }
+    .integration-divs {
+        margin-top: 10px;
+        margin-left: 1%;
+        min-height: 150px;
+        width: 98%;
+        background-color: #ffffff;
+        box-shadow: 2px 2px 8px #dddddd;
     }
 }

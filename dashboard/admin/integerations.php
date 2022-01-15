@@ -125,27 +125,102 @@
          <div id="right-container">
             
                   <div class="right-container-header" >
-                  <div class="username-position">Home > User</div>
+                  <div class="username-position">Home > User > Integrations</div>
                   <div class="username-div">Username</div>
                   </div>
 
-                  <div class="main-content-user">
+                  <div class="main-content-integrations">
                     <!-- user info -->
           
-                      <div class="w-100 d-flex">
-                       <div class="w-75"><strong><span>name</span></strong>,
-                       <span>email</span>,
-                       <span>name,Administrator</span></div>
+                      <div class="d-flex flex-wrap d-lg-flex">
+                        <!-- all integrations div -->
+                        <div class="integration-divs d-flex flex-row" >
 
-                       <button class="btn btn-danger log-out-button float-right">Log out</button>
+                              <div  class="w-25 p-3"   >
+                                <img class="w-100" src="https://growtheye.com/crm_beta/app-assets/images/longShadow-512.png" alt="">
+                                <!-- image div -->
+                              </div>
+                              <div class="w-75 p-2">
+                                  <!-- text div -->
+                                  <strong>Website Integration</strong>
+
+                                  <div class="blockquote-footer mt-2">
+                                  Social Media Connector<br>
+                                    This app connects helps you capture Lead Ads data in hycrm
+                                  </div>
+                                  <div class=" integerate-div-link-div"><a href="" > <div class="text-right w-100"> Integrate </div></a></div>
+                              
+                              </div>
+
+                           
+                        </div>
+
+                        <div class="integration-divs d-flex flex-row" >
+                          
+                             <div  class="w-25 p-3"   >
+                                <img class="w-100" src="https://growtheye.com/crm_beta/app-assets/images/facebook-page-app.png" alt="">
+                                <!-- image div -->
+                              </div>
+                              <div class="w-75 p-2">
+                                  <!-- text div -->
+                                  <strong>Facebook Integration</strong>
+
+                                  <div class="blockquote-footer mt-2">
+                                  Social Media Connector<br>
+                                    This app connects helps you capture Lead Ads data in hycrm
+                                  </div>
+                                  <div class="  integerate-div-link-div"><a href="" > <div class="text-right w-100"> Integrate </div></a></div>
+                              
+                              </div>
+
+                        </div>
+
+                        <div class="integration-divs d-flex flex-row" >
+                          
+                              <div  class="w-25 p-3"   >
+                                    <img class="w-100" src="https://growtheye.com/crm_beta/app-assets/images/sr.png" alt="">
+                                    <!-- image div -->
+                                  </div>
+                                  <div class="w-75 p-2">
+                                      <!-- text div -->
+                                      <strong>Super Receptionist</strong>
+
+                                      <div class="blockquote-footer mt-2">
+                                      Social Media Connector<br>
+                                        This app connects helps you capture Lead Ads data in hycrm
+                                      </div>
+                                      <div class="  integerate-div-link-div"><a href="" > <div class="text-right w-100"> Integrate </div></a></div>
+                              
+                              </div>
+
+                        </div>
+
+                        <div class="integration-divs d-flex flex-row" >
+                         
+                              <div  class="w-25 p-3"   >
+                                          <img class="w-100" src="https://growtheye.com/crm_beta/images/google_analytics.png" alt="">
+                                          <!-- image div -->
+                                        </div>
+                                        <div class="w-75 p-2">
+                                            <!-- text div -->
+                                            <strong>Google Analytics</strong>
+
+                                            <div class="blockquote-footer mt-2">
+                                            Social Media Connector<br>
+                                              This app connects helps you capture Lead Ads data in hycrm
+                                            </div>
+                                            <div class="  integerate-div-link-div"><a href="" > <div class="text-right w-100"> Integrate </div></a></div>
+                              
+                              </div>
+
+                        </div>
+
+
+
+
                       </div>
 
-                      <div class="d-lg-flex">
-                          <div class="small-option-div-in-user">Team settings</div>
-                          <a href="./integerations.php"><div class="small-option-div-in-user">Integrations</div></a>
-                          <div class="small-option-div-in-user">Change Password</div>
-
-                      </div>
+                       
                      
                   </div>
          

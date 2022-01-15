@@ -135,18 +135,18 @@
                      
                     <div class="left-links-div">
                        <div><strong>General Settings</strong></div>
-                       <div><a href="">Manage Account</a></div>
-                       <div><a href="">Profile</a></div>
-                       <div><a href="">Change Password</a></div>
-                       <div><a href="">Access Code</a></div>
-                       <div><a href="">Changelog</a></div>
+                       <div><a href="./manageaccount.php">Manage Account</a></div>
+                       <div><a href="./profile.php">Profile</a></div>
+                       <div><a href="./changepassword.php">Change Password</a></div>
+                       <div><a href="./acesscode.php">Access Code</a></div>
+                       <div><a href="./changelog.php">Changelog</a></div>
                        <div><strong>Customer Updates</strong></div>
-                       <div><a href="">Acknowledgment SMS</a></div>
+                       <div><a href="./acknowsms.php">Acknowledgment SMS</a></div>
                        <div><strong>Account Settings</strong></div>
-                       <div><a href="">Roles</a></div>
+                       <div><a href="./roles.php">Roles</a></div>
                        <div><strong>Lead Form Settings</strong></div>
-                       <div><a href="">Manage Source</a></div>
-                       <div><a href="">Manage Status</a></div>
+                       <div><a href="./manageoption.php">Manage Source</a></div>
+                       <div><a href="./manageoption.php">Manage Status</a></div>
                     </div>
                     <div class="right-form-div">
                     <div><strong>Profile Management</strong></div>
@@ -233,8 +233,6 @@
 
                           <div class="save-button" >
                             <button class="btn btn-primary">Save</button>
-
-
                           </div>
 
 
