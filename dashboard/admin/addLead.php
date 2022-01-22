@@ -81,6 +81,19 @@
               </div>
               </a>
 
+                      <!-- trash -->
+
+                      <a href="./trash.php">
+                      <div class="left-options-div left-options-div1">
+                          <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Reports" > <i class="fas fa-trash-alt fa-2x left-icon"></i></div>
+                          <div class="left-div-text mx-auto "> <span class="align-middle text-white mx-1"  > Trash</span> </div>
+                        </div>
+                        </a>
+
+
+
+
+
               <a href="./addLead.php">
              <div class="left-options-div left-options-div1">
                 <div class="left-image-div px-2   " data-bs-toggle="tooltip" data-bs-html="true" title="New Lead" > <i class="fas fa-plus-circle fa-2x left-icon"></i></div>
@@ -128,12 +141,84 @@
                   <div class="username-div">Username</div>
                   </div>
 
-                  <div class="main-content-dashboard">
+                  <div class="main-content-dashboard p-3">
                     <!-- user info -->
           
-                     Here is to Add New Leads
+                     <div class="add-lead-form-div">
+                     <div class="p-2"> <strong> Add Lead</strong></div>
+                      <div class="line-div"></div>
+
+                            <div class="p-3">
+                                      <div class="form-group mb-3">
+                                        <label for="exampleInputEmail1">Name <span class="red-asterick" >*</span></label>
+                                        <input type="email" class="form-control   mt-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name">
+                                      </div>
+
+                                      <div class="form-group  mb-3">
+                                        <label for="exampleInputEmail1">Email <span class="red-asterick" >*</span></label>
+                                        <input type="email" class="form-control   mt-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
+                                      </div>
+
+                                      <div class="form-group mb-3" >
+                                        <label for="exampleInputEmail1">Phone <span class="red-asterick" >*</span></label>
+                                        <input type="email" class="form-control   mt-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Phone">
+                                      </div>
+
+
+                                      <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Source <span class="red-asterick" >*</span> </label>
+                                        <select class="custom-select my-1 mr-sm-2 form-control   mt-2" id="inlineFormCustomSelectPref">
+                                        
+                                          <option value="1">Walkin</option>
+                                          <option value="2">Phone</option>
+                                          <option value="3">Website</option>
+                                          <option value="4">Google</option>
+                                          <option value="5">Facebook</option>
+                                      
+                                        </select>
+
+
+                                        <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Status <span class="red-asterick" >*</span> </label>
+                                        <select class="custom-select my-1 mr-sm-2 form-control   mt-2" id="inlineFormCustomSelectPref">
+                                        
+                                        <option value="1">New Lead</option>
+                                          <option value="2">Warm</option>
+                                          <option value="3">Hot</option>
+                                          <option value="4">Won</option>
+                                          <option value="5">Lost</option>
+                                          <option value="6">Dropout</option>
+                                          <option value="7">Invalid</option>
+                                          <option value="8">Careers</option>
+                                          <option value="9">Vendor</option>
+                                          <option value="10">Existing Costumer</option>
+                                          <option value="11">Future lead</option>
+                                      
+                                        </select>
+
+
+                                        <div class="form-group mb-3" >
+                                           <label for="exampleInputEmail1">Created Date <span class="red-asterick" >*</span></label>
+                                          <div class="d-flex flex-row">
+                                            <input type="date" class="form-control w-50 mx-2  mt-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Phone">
+                                           <input type="time" class="form-control w-50 mx-2  mt-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Phone">
+                                       
+                                          </div>  
+                                       </div>
+
+
+
+                            </div>
+
+                            <div class="line-div"></div>
+                            <div class="p-3">
+                              <button type="submit" class="btn btn-primary  mx-4 "> Add lead</button>
+                            </div>
+
+
+
+
+                     </div>
                      
-                    </div>
+                   </div>
          
          
 

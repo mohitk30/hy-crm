@@ -491,6 +491,133 @@ a {
     /* box-shadow: 1px 2px 15px #d3d3d3; */
 }
 
+.team-settings-table-container {
+    overflow-x: scroll;
+}
+
+.team-settings-main-table-div {
+    min-height: 150px;
+    width: 1300px;
+}
+
+.actions-div {
+    min-width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.actions-div:hover {
+    cursor: pointer;
+}
+
+.add-user-button-team {
+    border-radius: 8px 0px 0px 8px;
+}
+
+.refresh-button-team {
+    border-radius: 0px 8px 8px 0px;
+}
+
+#mondel-for-email-notification {
+    position: absolute;
+    height: 5vh;
+    width: 40vw;
+    min-height: 165px;
+    /* min-width: 400px; */
+    max-width: 80vw;
+    margin: auto;
+    background-color: white;
+    display: none;
+    top: 10%;
+    left: 20%;
+    padding: 10px;
+}
+
+.cancel-button-email-mondel {
+    margin-left: 70%;
+    margin-top: 10px;
+}
+
+.cancel-button-email-mondel:hover {
+    cursor: pointer;
+}
+
+.main-form-for-add-user {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background: white;
+}
+
+.main-content-add-user-team {
+    width: 100%;
+    min-height: 500px;
+    background-color: #f1f1f1;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.add-lead-form-div {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background: white;
+}
+
+.trash-containers-options {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background: white
+}
+
+.trash-option-3-flex-divs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.option-divs-change-add-filters {
+    min-height: 350px;
+    min-width: 350px;
+    width: 30%;
+    background-color: white;
+    border: 1px solid #e7e7e7;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.small-images-in-trash {
+    margin-left: 30%;
+}
+
+.btn-in-trash {
+    border: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+}
+
+.trash-Mondel {
+    position: absolute;
+    min-height: 400px;
+    height: 30vh;
+    width: 80%;
+    top: 100px;
+    left: 50px;
+    border: 2px solid #e7e7e7;
+    background-color: white;
+}
+
+.main-content-filter-mondel {
+    overflow-y: scroll;
+    height: 300px;
+}
+
+
+/* mondel in trash start */
+
+
+/* mondel in trash end */
+
 
 /* media queries */
 
@@ -553,5 +680,19 @@ a {
         width: 98%;
         background-color: #ffffff;
         box-shadow: 2px 2px 8px #dddddd;
+    }
+    #mondel-for-email-notification {
+        position: absolute;
+        height: 10vh;
+        width: 75vw;
+        min-height: 150px;
+        /* min-width: 400px; */
+        max-width: 80vw;
+        margin: auto;
+        left: 5%;
+    }
+    .trash-option-3-flex-divs {
+        display: flex;
+        flex-direction: column;
     }
 }

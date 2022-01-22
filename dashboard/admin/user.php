@@ -82,6 +82,18 @@
               </div>
               </a>
 
+                      <!-- trash -->
+
+                      <a href="./trash.php">
+                      <div class="left-options-div left-options-div1">
+                          <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Reports" > <i class="fas fa-trash-alt fa-2x left-icon"></i></div>
+                          <div class="left-div-text mx-auto "> <span class="align-middle text-white mx-1"  > Trash</span> </div>
+                        </div>
+                        </a>
+
+
+
+
               <a href="./addLead.php">
              <div class="left-options-div left-options-div1">
                 <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="New Lead" > <i class="fas fa-plus-circle fa-2x left-icon"></i></div>
@@ -133,17 +145,25 @@
                     <!-- user info -->
           
                       <div class="w-100 d-flex">
-                       <div class="w-75"><strong><span>name</span></strong>,
-                       <span>email</span>,
-                       <span>name,Administrator</span></div>
+                       <div class="w-auto"> 
+                       User Profile</div>
 
                        <button class="btn btn-danger log-out-button float-right">Log out</button>
                       </div>
+                      <div class="p-2">
+                        <!-- user info in user section -->
+                        <div>Name: Rohit Yadav</div>
+                        <div>Username: rohityadav</div>
+                        <div>Email: rohityadav@gmail.com</div>
+                        <div>Role: Administrator</div>
+
+
+                      </div>
 
                       <div class="d-lg-flex">
-                          <div class="small-option-div-in-user">Team settings</div>
+                      <a href="./teamsettings.php"><div class="small-option-div-in-user">Team settings</div></a>
                           <a href="./integerations.php"><div class="small-option-div-in-user">Integrations</div></a>
-                          <div class="small-option-div-in-user">Change Password</div>
+                          <a href="./settings/changepassword.php"><div class="small-option-div-in-user">Change Password</div></a>
 
                       </div>
                      

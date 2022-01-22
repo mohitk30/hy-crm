@@ -42,7 +42,7 @@
           
              <div class="left-options-div">
                 <!-- <div class="left-image-div px-sm-1 px-lg-2  " > <img class="left-icon-image" src="https://assets-geys.sgp1.digitaloceanspaces.com/growtheye/logo.png" alt="Logo"></div> -->
-                <div class="left-div-text font-24"> <span class="align-middle text-white" >HY</span> </div>
+                <div class="left-div-text font-24"> <span class="align-middle text-white" > HY</span> </div>
               </div>
               
               <a href="./admin.php">
@@ -59,6 +59,7 @@
               </div>
               </a>
 
+
                 <!-- cleander -->
                 <a href="./calender.php">
              <div class="left-options-div left-options-div1">
@@ -67,6 +68,7 @@
               </div>
               </a>
 
+              
               <a href="./analytics.php">
              <div class="left-options-div left-options-div1">
                 <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Analytics" > <i class="fas fa-chart-bar fa-2x left-icon"></i></div>
@@ -81,14 +83,15 @@
               </div>
               </a>
 
-                   <!-- trash -->
+                    <!-- trash -->
 
-                   <a href="./trash.php">
+                    <a href="./trash.php">
                       <div class="left-options-div left-options-div1">
                           <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Reports" > <i class="fas fa-trash-alt fa-2x left-icon"></i></div>
                           <div class="left-div-text mx-auto "> <span class="align-middle text-white mx-1"  > Trash</span> </div>
                         </div>
                         </a>
+
 
 
 
@@ -137,14 +140,51 @@
          <div id="right-container">
             
                   <div class="right-container-header" >
-                  <div class="username-position">Home > User</div>
+                  <div class="username-position">Home > User > Add User</div>
                   <div class="username-div">Username</div>
                   </div>
 
-                  <div class="main-content-dashboard">
+                  <div class="main-content-add-user-team p-4">
                     <!-- user info -->
           
-                     Here is user info
+                     <div class="main-form-for-add-user">
+                      <div class="p-2"> <strong> Add User</strong></div>
+                      <div class="line-div"></div>
+
+                            <div class="p-5">
+                                      <div class="form-group mb-3">
+                                        <label for="exampleInputEmail1">Name <span class="red-asterick" >*</span></label>
+                                        <input type="email" class="form-control   mt-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name">
+                                      </div>
+
+                                      <div class="form-group  mb-3">
+                                        <label for="exampleInputEmail1">Email <span class="red-asterick" >*</span></label>
+                                        <input type="email" class="form-control   mt-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
+                                      </div>
+
+                                      <div class="form-group mb-3" >
+                                        <label for="exampleInputEmail1">Phone <span class="red-asterick" >*</span></label>
+                                        <input type="email" class="form-control   mt-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Phone">
+                                      </div>
+
+                                        <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Role <span class="red-asterick" >*</span> </label>
+                                        <select class="custom-select my-1 mr-sm-2 form-control   mt-2" id="inlineFormCustomSelectPref">
+                                        
+                                          <option value="1">Administrator</option>
+                                          <option value="2">Client</option>
+                                      
+                                        </select>
+
+
+
+                            </div>
+                            <div class="line-div"></div>
+
+                            <div class="p-3">
+                              <button type="submit" class="btn btn-primary  mx-4 "> Save User</button>
+                            </div>
+
+                     </div>
                      
                     </div>
          

@@ -83,6 +83,22 @@
               </div>
               </a>
 
+
+                     <!-- trash -->
+
+                     <a href="./trash.php">
+                      <div class="left-options-div left-options-div1">
+                          <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="Reports" > <i class="fas fa-trash-alt fa-2x left-icon"></i></div>
+                          <div class="left-div-text mx-auto "> <span class="align-middle text-white mx-1"  > Trash</span> </div>
+                        </div>
+                        </a>
+
+
+
+
+
+
+
               <a href="./addLead.php">
              <div class="left-options-div left-options-div1">
                 <div class="left-image-div px-2  " data-bs-toggle="tooltip" data-bs-html="true" title="New Lead" > <i class="fas fa-plus-circle fa-2x left-icon"></i></div>
