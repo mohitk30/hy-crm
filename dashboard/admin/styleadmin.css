@@ -458,7 +458,7 @@ a {
 
 .main-content-user {
     width: 100%;
-    min-height: 500px;
+    min-height: 600px;
     background-color: #f1f1f1;
     padding: 8px;
     border-radius: 4px;
@@ -578,8 +578,8 @@ a {
 }
 
 .option-divs-change-add-filters {
-    min-height: 350px;
-    min-width: 350px;
+    min-height: 320px;
+    min-width: 320px;
     width: 30%;
     background-color: white;
     border: 1px solid #e7e7e7;
@@ -598,7 +598,7 @@ a {
 
 .trash-Mondel {
     position: absolute;
-    min-height: 400px;
+    min-height: 450px;
     height: 30vh;
     width: 80%;
     top: 100px;
@@ -610,6 +610,64 @@ a {
 .main-content-filter-mondel {
     overflow-y: scroll;
     height: 300px;
+}
+
+.left-upload-div-in-import {
+    background-color: white;
+    border-radius: 4px;
+    min-height: 300px;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.right-info-div-in-import {
+    background-color: white;
+    border-radius: 4px;
+    min-height: 300px;
+    width: 62%;
+}
+
+.exel-div {
+    max-width: 200px;
+}
+
+.suggestions-while-upload {
+    font-size: 14px;
+}
+
+.main-heading-in-reports-section {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.main-bold-section-for-report {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.lead-by-section-divs {
+    width: 45%;
+    height: 400px;
+    background-color: white;
+    margin: 34px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.leads-by-source-table {
+    height: 300px;
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.report-main-table-div {
+    width: 100%;
+    overflow-x: scroll;
 }
 
 
@@ -694,5 +752,22 @@ a {
     .trash-option-3-flex-divs {
         display: flex;
         flex-direction: column;
+    }
+    .left-upload-div-in-import {
+        background-color: white;
+        border-radius: 4px;
+        min-height: 300px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .right-info-div-in-import {
+        background-color: white;
+        border-radius: 4px;
+        min-height: 300px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .lead-by-section-divs {
+        width: 90%;
     }
 }

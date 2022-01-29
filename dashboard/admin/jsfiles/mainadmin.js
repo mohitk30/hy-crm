@@ -218,5 +218,6 @@ function toogleFilterMondel() {
 
 
     element.classList.toggle("fade");
+    element.classList.toggle("d-none");
 
 }
