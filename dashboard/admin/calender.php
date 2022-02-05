@@ -31,6 +31,30 @@
   />
 
 
+  <!-- clander -->
+
+  <!-- <link href='fullcalendar/main.css' rel='stylesheet' />
+    <script src='fullcalendar/main.js'></script> -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js"></script> -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/fullcalendar@5.10.1/main.min.css,npm/fullcalendar@5.10.1/main.min.css">
+    <script src="https://cdn.jsdelivr.net/combine/npm/fullcalendar@5.10.1,npm/fullcalendar@5.10.1/main.min.js,npm/fullcalendar@5.10.1/locales-all.min.js,npm/fullcalendar@5.10.1/locales-all.min.js"></script>
+   <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: 'dayGridMonth'
+        });
+        calendar.render();
+      });
+
+    </script>
+
+    <!-- <link href="app-assets/css/fullcalendar.min.css" rel="stylesheet" />
+<link href="app-assets/css/fullcalendar-ui.min.css" rel="stylesheet" /> -->
+
     <title>hycrm-admin : Dashboard</title>
 </head>
 <body>
@@ -141,11 +165,24 @@
                   <div class="username-div">Username</div>
                   </div>
 
-                  <div class="main-content-dashboard">
+                  <div class="main-content-dashboard p-2">
                     <!-- user info -->
           
-                     Here is Calender
+                          <!-- cleander div -->
+
+                          <div class="w-100 clander-divs" >
+
+                           
+                            <div id="calendar"></div>
+
+
+
+                          </div>
+                              
                      
+
+
+
                     </div>
          
          

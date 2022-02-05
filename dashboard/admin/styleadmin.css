@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     color: black;
 }
 
@@ -216,12 +216,12 @@ a {
     margin-top: 10px;
     display: flex;
     flex-direction: row;
-    transition: all ease-in-out .25s;
+    transition: all ease-in-out 0.25s;
 }
 
 .dashboard-leads-info-div-small-divs:hover {
     cursor: pointer;
-    border-color: #0082FF;
+    border-color: #0082ff;
     box-shadow: 0 2px 4px 0 rgb(146 202 255 / 30%);
 }
 
@@ -568,7 +568,7 @@ a {
     width: 100%;
     height: 100%;
     padding: 10px;
-    background: white
+    background: white;
 }
 
 .trash-option-3-flex-divs {
@@ -670,6 +670,34 @@ a {
     overflow-x: scroll;
 }
 
+.connect-to-google-analytics {
+    min-height: 230px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 12px;
+    width: 27%;
+}
+
+.clander-divs {
+    min-height: 300px;
+    background-color: white;
+    padding: 30px;
+}
+
+#calendar {}
+
+.fc-icon-chevron-left {
+    color: white !important;
+}
+
+.fc-icon-chevron-right {
+    color: white !important;
+}
+
+.fc-today-button {
+    display: none !important;
+}
+
 
 /* mondel in trash start */
 
@@ -679,9 +707,9 @@ a {
 
 /* media queries */
 
-@media screen and (max-width:992px) {
+@media screen and (max-width: 992px) {
     #left-container {
-        width: 70px!important;
+        width: 70px !important;
     }
     #right-container {
         width: calc(100% - 70px) !important;
@@ -768,6 +796,14 @@ a {
         margin-bottom: 10px;
     }
     .lead-by-section-divs {
-        width: 90%;
+        width: 96%;
+        height: 400px;
+        background-color: white;
+        margin: 10px;
+        border-radius: 8px;
+        padding: 10px;
+    }
+    .connect-to-google-analytics {
+        width: 100%;
     }
 }

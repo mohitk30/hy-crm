@@ -135,14 +135,25 @@
          <div id="right-container">
             
                   <div class="right-container-header" >
-                  <div class="username-position">Home > Analytics</div>
+                  <div class="username-position">Home > Google Analytics Integration</div>
                   <div class="username-div">Username</div>
                   </div>
 
-                  <div class="main-content-dashboard">
+                  <div class="main-content-dashboard p-3">
                     <!-- user info -->
           
-                     Here is Reports
+                      <!-- google analytics connect div -->
+
+                      <div class="connect-to-google-analytics ">
+                        <div class="w-100 p-2">
+                          <img class="w-50" src="https://growtheye.com/crm_beta/images/google_analytics.png" alt="">
+                        </div>
+                        <strong>Google Analytics integration</strong>
+                        <div class="pt-3">
+                          <button class="btn btn-primary"> Connect Account</button>
+                        </div>
+                      </div>
+
                      
                     </div>
          
